@@ -4,8 +4,12 @@ import pandas as pd
 import plotly.express as px
 import datetime
 
+cache_dir = 'f1_cache'
+if not os.path.exists(cache_dir):
+    os.makedirs(cache_dir)
+ff1.Cache.enable_cache(cache_dir)
 
-ff1.Cache.enable_cache(r'/home/siddhantp/Desktop/F1_Project/F1_Cache')
+# ff1.Cache.enable_cache(r'/home/siddhantp/Desktop/F1_Project/F1_Cache')
 
 
 st.set_page_config(
