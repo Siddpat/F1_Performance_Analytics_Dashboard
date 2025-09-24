@@ -6,7 +6,37 @@ An interactive web application built with Streamlit to analyze and visualize For
 Access the Dashboard Here!](https://f1-performance-analytics.streamlit.app/)
 
 📸 Screenshots
-(Add screenshots of dashboard's different tabs here)
+<table>
+  <tr>
+    <td align="center">
+      <img src="Screenshot_1" width="500"/>
+      <br>
+      1
+    </td>
+    <td align="center">
+      <img src="Screenshot_2.png" width="500"/>
+      <br>
+      2
+    </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="Screenshot_3.png" width="500"/>
+      <br>
+      3
+    </td>
+    <td align="center">
+      <img src="Screenshot_4.png" width="500"/>
+      <br>
+      4
+    </td>
+  </tr>
+</table>
+
+
 
 ## ✨ Features
 
@@ -32,16 +62,24 @@ View a lap-by-lap time delta chart to see who was faster at different stages of 
 
 📅 Dynamic Filters: Use the sidebar to select any season and any completed race from the past several years.
 
+
+## Usage
+Once the app is running, use the sidebar to select a season and a Grand Prix. The dashboard will load the data and display the analysis across the different tabs. You can use the other sidebar options to compare specific drivers for the lap time and head-to-head analyses.
+
 ## 🛠️ Tech Stack
-Language: Python
 
-Framework: Streamlit
+### Language: Python
 
-Libraries:
+### Framework: Streamlit
+
+### Libraries:
 
 fastf1 for F1 data access
 
 pandas for data manipulation
 
+
+## Data Source
+This project is powered by the excellent FastF1 library, which sources its data from the official F1 live timing APIs.
 plotly for interactive visualizations
 
