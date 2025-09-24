@@ -9,7 +9,7 @@ Access the Dashboard Here!](https://f1-performance-analytics.streamlit.app/)
 <table>
   <tr>
     <td align="center">
-      <img src="Screenshot_1" width="500"/>
+      <img src="Screenshot_1.png" width="500"/>
       <br>
       1
     </td>
