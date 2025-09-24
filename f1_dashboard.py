@@ -3,7 +3,7 @@ import fastf1 as ff1
 import pandas as pd
 import plotly.express as px
 import datetime
-
+import os
 cache_dir = 'f1_cache'
 if not os.path.exists(cache_dir):
     os.makedirs(cache_dir)
